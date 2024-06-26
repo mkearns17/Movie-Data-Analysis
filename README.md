@@ -43,7 +43,7 @@ Please refer to my [jupyter notebook](./Movie_Data_Analysis.ipynb) for the compl
 
 Based on this analysis I recommend the following three business actions:
 
-1. The top genre of movies to make should be **Action and Adventure**. These two genres generate at least $2.5 Trillion more in gross worldwide revenue than any other genree. These types of movies will help bring in money to the studio.
+1. The top genre of movies to make should be **Action and Adventure**. These two genres generate at least $2.5 Trillion more in gross worldwide revenue than any other genre. These types of movies will help bring in money to the studio.
 2. Create a consistent lineup of **Animated** movies to ensure the company is making a profit. Animated movies will have the best profit margins due to lower production costs. This will also help appeal to a wider audience.
 3. *Do not* target specific viewer ratings for movies. View ratings are similar across genres. Similarly, *do not* limit or set specific movie lengths. Runtime does not have a clear impact on viewer ratings. Therefore, focus on the production and story quality of our movies. 
 
