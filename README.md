@@ -3,17 +3,17 @@ by Michael Kearns
 
 ![img](./images/movie.jpeg)
 
-# BUSINESS UNDERSTANDING
+# Business Understanding
 
 The company is creating a new movie studio and needs insight into which types of movies to make. My analysis will provide information on which types of movies have had the most success in recent years, and I will provide suggestions to the head of the movie studio on how to proceed. 
 
-#  DATA UNDERSTANDING
+# Data Understanding
 
 The datasets used for this analysis come from multiple online sources that collect relevant movie information, such as genre, release date, viewer reviews/ratings, gross revenue, etc. The datasets may not be directly linked or related as each source uses different formatting depending on the information it holds. Therefore, extra preparation is needed to develop significant insight.
 
 Categorizing the data by genre is the most important strategy to determine movie success as it will directly answer the current business problem.
 
-## DATA PREPARATION
+## Data Preparation
 
 Data from multiple datasets will be joined together to produce any significant findings. Primarily, movies will need to be grouped based on their genre. From there, revenue and profits can be determined, as well as viewer reviews.
 
@@ -21,7 +21,7 @@ Many movies have multiple genre types, therefore, the genre of each movie will n
 
 The financial success of movies is a significant factor. With the current form, gross revenue is formatted as a string and will be converted to floats for easier analysis. 
 
-# EXPLORATORY DATA ANALYSIS
+# Exploratory Analysis
 
 Adventure, Action, and Drama movies have the highest gross worldwide revenue from 2010-2011. They are the only genres that reach over the $10 Trillion mark. The revenue levels have a significant drop off after comedies.
 
@@ -35,11 +35,11 @@ The average movie viewer rating is similar across genres. Targeting a highly rat
 
 ![img](./images/TMDBMovieScoreByGenre.png)
 
-## MORE INFORMATION
+## More Information
 
 Please refer to my [jupyter notebook](./Movie_Data_Analysis.ipynb) for the complete analysis and my [presentation](./Movie_Data_Analysis_Presentation.pdf) for additional information.
 
-# CONCLUSION & RRECOMMENDATIONS
+# Conclusion & Recommendations
 
 Based on this analysis I recommend the following three business actions:
 
@@ -47,6 +47,6 @@ Based on this analysis I recommend the following three business actions:
 2. Create a consistent lineup of **Animated** movies to ensure the company is making a profit. Animated movies will have the best profit margins due to lower production costs. This will also help appeal to a wider audience.
 3. *Do not* target specific viewer ratings for movies. View ratings are similar across genres. Similarly, *do not* limit or set specific movie lengths. Runtime does not have a clear impact on viewer ratings. Therefore, focus on the production and story quality of our movies. 
 
-## NEXT STEPS
+## Next Steps
 
 The next steps for the movie studio could be to focus on specific writers, directors, producers, or actors to sign on to create movies. Additional analysis could be performed to determine which individuals have had significant success in the industry and could help get the studio up and running. 
